@@ -9,4 +9,136 @@
     <title>UranoChroma</title>
 </head>
 <body class="fondo">
+    <!-- Header -->
+    <header class="container-fluid">
+        <!-- logo -->
+        <a href="./index.html"><img src="./assets/Logo.png" alt="logo" class="logo"></a>
+        <iframe id="spotify" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4SBhb3fqCJd?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- Menu -->
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="#">Inicio</a> </li>
+                <li><a href="./pages/portfolio.html">Porfolio</a></li>
+                <li><a href="./pages/sobre-mi.html">Sobre mi</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/presupuesto.html">Presupuesto</a></li>
+            </ul>
+        </nav>
+        <!-- menu responsive -->
+        <nav class="mobile-menu">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+                </button>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Inicio</a> </li>
+                <li><a class="dropdown-item" href="./pages/portfolio.html">Porfolio</a></li>
+                <li><a class="dropdown-item" href="./pages/sobre-mi.html">Sobre mi</a></li>
+                <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+                <li><a class="dropdown-item" href="./pages/presupuesto.html">Presupuesto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin Header -->
+    <main>
+        <section>
+            <article id="banner" >
+                <!-- carrusel -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="banner" src="./assets/banner.png" class="d-block w-100 " alt="collage">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="banner" src="./assets/paisaje8.jpg" class="d-block w-100 " alt="atardecer">
+                    </div>
+                    <div class="carousel-item">
+                        <img id="banner" src="./assets/paisaje12.jpg" class="d-block w-100 " alt="paisaje">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </article>
+            <article class="imagenes-flex imagenes-inicio ">
+                <div>
+                    <img src="./assets/futbol.jpg" alt="partido de futbol femenino">
+                </div>
+                <div>
+                    <img src="./assets/modelo.jpg" alt="chica modelando">
+                </div>
+                <div>
+                    <img src="./assets/velas.jpg" alt="velas" >
+                </div>
+                <div>
+                    <img src="./assets/urban.jpg" alt="chica en escaleras" >
+                </div>
+                <div>
+                    <img src="./assets/evento3.jpg" alt="dj ">
+                </div>
+                <div>
+                    <img src="./assets/comida18.jpg" alt=" ">
+                </div>
+            </article>
+        </section>
+        <!-- formulario de consulta -->
+        <section class="contacto ">
+            <article class="row">
+                <form action="404.html">
+                    <h3>Deja tu consulta</h3>
+                    <input type="text" placeholder="Nombre" class="consulta"><br>
+                    <input type="email" placeholder="Correo" required class="consulta"><br>
+                    <textarea name="Tu consulta" id="" cols="20" rows="5" class="consulta"></textarea><br>
+                    <input type="reset"class="boton">
+                    <input type="submit"class="boton">
+                </form>
+            </article>
+            <!-- google maps -->
+            <article>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15634.29389213125!2d-58.56491566431658!3d-34.53569055588733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbba69c4b23d1%3A0xc9f17bee3b6b57fe!2sUranoChroma%20-%20Fotograf%C3%ADa!5e0!3m2!1ses-419!2sar!4v1690735899501!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <!-- link whatsapp -->
+        <div class="wpp">
+            <a href="https://wa.me/541168672381">
+                <img src="./assets/logowpp.png" alt="Whatsapp">
+            </a>
+        </div> 
+    </main>
+
+    <footer class="container-fluid">
+        <section>
+            <article class="serv-fotos">
+                <h4>Servicio de fotografía</h4>
+                <p>Tu servicio fotográfico que le da vida a tus proyectos visuales con estilo y pasión.<br>Listo para capturar la esencia de tus momentos más importantes.</p>
+            </article>
+            <article class="mis-redes">
+                <h4 id="titulo-redes">Mis redes</h4>
+                <div>
+                    <img src="./assets/instagram.png" alt="Instagram" class="redes">
+                    <a class="links-redes" href="https://www.instagram.com/uranochroma.fotografia/" target="_blank">Instagram</a>
+                </div>
+                <div>
+                    <img src="./assets/email.png" alt="Email" class="redes">
+                    <a class="links-redes" href="mailto:mafia.fotos.jpg@gmail.com" target="_blank">Email</a>
+                </div>
+                <div>                   
+                    <img src="./assets/behance.png" alt="Behance" class="redes">
+                    <a class="links-redes" href="https://www.behance.net/mafiaphotos" target="_blank">Behance</a>
+                </div>
+            </article>
+        </section>
+        <div class="final">
+            <p>UranoChroma - FOTOGRAFIA</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
