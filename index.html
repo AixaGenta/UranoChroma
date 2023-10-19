@@ -18,12 +18,18 @@
         <nav class="desktop-menu">
             <ul>
                 <li><a href="#">Inicio</a> </li>
-                <li><a href="./pages/portfolio.html">Porfolio</a></li>
+                <li><a href="./pages/portfolio.html">Portfolio</a></li>
                 <li><a href="./pages/sobre-mi.html">Sobre mi</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
                 <li><a href="./pages/presupuesto.html">Presupuesto</a></li>
             </ul>
         </nav>
+        <!-- link whatsapp responsive -->
+        <div class="mobile-wpp">
+            <a href="https://wa.me/541168672381">
+                <img src="./assets/mobile-wpp.png" alt="Whatsapp">
+            </a>
+        </div> 
         <!-- menu responsive -->
         <nav class="mobile-menu">
             <div class="btn-group" role="group">
@@ -51,7 +57,7 @@
                         <img id="banner" src="./assets/banner.png" class="d-block w-100 " alt="collage">
                     </div>
                     <div class="carousel-item">
-                        <img id="banner" src="./assets/paisaje8.jpg" class="d-block w-100 " alt="atardecer">
+                        <img id="banner" src="./assets/paisaje8.jpeg" class="d-block w-100 " alt="atardecer">
                     </div>
                     <div class="carousel-item">
                         <img id="banner" src="./assets/paisaje12.jpg" class="d-block w-100 " alt="paisaje">
@@ -84,20 +90,22 @@
                     <img src="./assets/evento3.jpg" alt="dj ">
                 </div>
                 <div>
-                    <img src="./assets/comida18.jpg" alt=" ">
+                    <img src="./assets/comida18.jpg" alt="comida ">
                 </div>
             </article>
         </section>
         <!-- formulario de consulta -->
         <section class="contacto ">
-            <article class="row">
+            <article class="contacto-cuadro">
                 <form action="404.html">
                     <h3>Deja tu consulta</h3>
                     <input type="text" placeholder="Nombre" class="consulta"><br>
                     <input type="email" placeholder="Correo" required class="consulta"><br>
-                    <textarea name="Tu consulta" id="" cols="20" rows="5" class="consulta"></textarea><br>
-                    <input type="reset"class="boton">
-                    <input type="submit"class="boton">
+                    <textarea name="Tu consulta"  class="text-consulta"></textarea><br>
+                    <div class="botones">
+                        <input type="reset"class="boton">
+                        <input type="submit"class="boton">
+                    </div>
                 </form>
             </article>
             <!-- google maps -->
@@ -113,7 +121,7 @@
         </div> 
     </main>
 
-    <footer class="container-fluid">
+    <footer>
         <section>
             <article class="serv-fotos">
                 <h4>Servicio de fotografía</h4>
@@ -121,6 +129,10 @@
             </article>
             <article class="mis-redes">
                 <h4 id="titulo-redes">Mis redes</h4>
+                <div>
+                    <img src="./assets/logowpp.png" alt="Whatsapp" class="redes">
+                    <a class="links-redes" href="https://wa.me/541168672381" target="_blank">Whatsapp</a>
+                </div>
                 <div>
                     <img src="./assets/instagram.png" alt="Instagram" class="redes">
                     <a class="links-redes" href="https://www.instagram.com/uranochroma.fotografia/" target="_blank">Instagram</a>
